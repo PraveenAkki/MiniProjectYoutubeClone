@@ -9,7 +9,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  static const String key = "AIzaSyAsMyl8N9z9eG43rIzNMLBBrsrMnoA7diE";
+  static const String key = "";
   final YoutubeAPI youtube = YoutubeAPI(key);
   final List<YouTubeVideo> videoResult = [];
   final ScrollController _scrollController = ScrollController();

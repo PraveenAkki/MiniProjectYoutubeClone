@@ -14,7 +14,7 @@ class SearchPage extends StatefulWidget {
 class _SearchPageState extends State<SearchPage> {
   TextEditingController searchController = TextEditingController();
 
-  static String key = "AIzaSyAsMyl8N9z9eG43rIzNMLBBrsrMnoA7diE";
+  static String key = "";
   YoutubeAPI youtube = YoutubeAPI(key);
   List<YouTubeVideo> videoResult = [];
 
